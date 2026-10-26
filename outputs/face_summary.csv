@@ -1,0 +1,25 @@
+face,status,slope,aspect,area_plan_m2,area_true_m2,usable_true_m2,relative_yield,n_panels,orientation,mode,kWp
+1,excluded: poor orientation (yield 64%),37.649,42.591,28.137,35.537,,0.636,0,,,
+2,used,35.078,225.266,46.034,56.25,45.31,0.946,14,landscape,aligned,5.95
+3,used,36.159,132.988,59.674,73.911,58.085,0.941,19,landscape,aligned,8.075
+4,excluded: dormer / non-planar structure,6.418,45.635,6.08,6.118,,0.916,0,,,
+5,excluded: poor orientation (yield 65%),35.72,42.649,72.727,89.579,,0.648,0,,,
+6,used,35.215,222.602,65.723,80.445,51.835,0.952,11,landscape,staggered,4.675
+7,excluded: glazing,15.653,311.333,8.311,8.631,,0.789,0,,,
+8,excluded: shaded (> 30% beam loss),30.225,221.955,13.274,15.363,10.007,0.955,0,portrait,aligned,0.0
+9,excluded: glazing,19.62,136.345,7.046,7.48,,0.942,0,,,
+10,excluded: poor orientation (yield 63%),39.445,317.243,8.162,10.569,,0.625,0,,,
+11,excluded: poor orientation (yield 67%),36.003,309.686,8.815,10.897,,0.669,0,,,
+12,excluded: poor orientation (yield 64%),39.064,313.612,19.936,25.676,,0.639,0,,,
+13,used,36.59,132.183,18.074,22.51,14.363,0.938,4,portrait,aligned,1.7
+14,no room for a module,33.063,226.144,6.97,8.317,4.544,0.945,0,,,
+15,no room for a module,22.725,290.583,6.977,7.565,3.947,0.792,0,,,
+16,excluded: poor orientation (yield 64%),39.483,313.443,11.339,14.692,,0.637,0,,,
+17,excluded: glazing,14.554,220.292,8.337,8.614,,0.934,0,,,
+18,excluded: glazing,21.422,42.832,8.188,8.796,,0.743,0,,,
+19,excluded: poor orientation (yield 65%),32.535,323.76,3.627,4.302,,0.653,0,,,
+20,excluded: dormer / non-planar structure,38.385,312.201,6.794,8.668,,0.647,0,,,
+21,excluded: dormer / non-planar structure,41.125,134.97,5.906,7.84,,0.938,0,,,
+22,no room for a module,16.624,275.015,3.913,4.084,1.653,0.848,0,,,
+23,excluded: poor orientation (yield 66%),29.92,328.548,2.78,3.208,,0.663,0,,,
+24,excluded: dormer / non-planar structure,84.774,155.062,0.84,9.225,,0.753,0,,,

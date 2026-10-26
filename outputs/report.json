@@ -1,0 +1,325 @@
+{
+  "location": {
+    "lat": 52.28486553604817,
+    "lon": -0.9396805111633424,
+    "crs": "EPSG:32630",
+    "resolution_m": 0.1
+  },
+  "preprocess": {
+    "missing_px": 0,
+    "outlier_px": 374,
+    "filled_px": 374
+  },
+  "building": {
+    "exg_threshold": 0.020709314158012138,
+    "area_m2": 480.78000000000003,
+    "ground_height": 106.82705397975383
+  },
+  "dominant_axis_deg": 43.0876821868811,
+  "n_obstructions": 20,
+  "obstructions_by_kind": {
+    "overhanging vegetation": 3,
+    "dormer/raised structure": 6,
+    "chimney/vent": 5,
+    "skylight/lantern (raised glazing)": 1,
+    "roof window (flush)": 5
+  },
+  "n_panels": 48,
+  "system_kWp": 20.4,
+  "mean_shading_loss": 0.10389301046214967,
+  "metrics": {
+    "seam_gap_before_snap": {
+      "median_m": 0.0577200073748827,
+      "p95_m": 0.7884635551599786,
+      "max_m": 2.773947285488248
+    },
+    "snap": {
+      "snapped_line": 166,
+      "snapped_junction": 19,
+      "candidates": 598
+    },
+    "reconstruction": {
+      "roof_rmse_m": 0.1542882297773343,
+      "roof_mae_m": 0.058116321158557145,
+      "within_10cm_pct": 89.18206414911084,
+      "within_20cm_pct": 97.56723631570428,
+      "seam_gap_median_m": 4.656612873077393e-10,
+      "seam_gap_p95_m": 2.3283064365386963e-09,
+      "ridge_line_fit_max_m": 0.5050366357751769,
+      "n_faces": 24,
+      "faces": [
+        {
+          "id": 1,
+          "area_plan_m2": 28.14,
+          "slope": 37.6,
+          "aspect": 42.6,
+          "rmse_m": 0.04,
+          "p95_abs_residual_m": 0.08
+        },
+        {
+          "id": 2,
+          "area_plan_m2": 46.03,
+          "slope": 35.1,
+          "aspect": 225.3,
+          "rmse_m": 0.097,
+          "p95_abs_residual_m": 0.166
+        },
+        {
+          "id": 3,
+          "area_plan_m2": 59.67,
+          "slope": 36.2,
+          "aspect": 133.0,
+          "rmse_m": 0.035,
+          "p95_abs_residual_m": 0.068
+        },
+        {
+          "id": 4,
+          "area_plan_m2": 6.08,
+          "slope": 6.4,
+          "aspect": 45.6,
+          "rmse_m": 0.507,
+          "p95_abs_residual_m": 1.436
+        },
+        {
+          "id": 5,
+          "area_plan_m2": 72.73,
+          "slope": 35.7,
+          "aspect": 42.6,
+          "rmse_m": 0.206,
+          "p95_abs_residual_m": 0.201
+        },
+        {
+          "id": 6,
+          "area_plan_m2": 65.72,
+          "slope": 35.2,
+          "aspect": 222.6,
+          "rmse_m": 0.043,
+          "p95_abs_residual_m": 0.086
+        },
+        {
+          "id": 7,
+          "area_plan_m2": 8.31,
+          "slope": 15.7,
+          "aspect": 311.3,
+          "rmse_m": 0.045,
+          "p95_abs_residual_m": 0.098
+        },
+        {
+          "id": 8,
+          "area_plan_m2": 13.27,
+          "slope": 30.2,
+          "aspect": 222.0,
+          "rmse_m": 0.069,
+          "p95_abs_residual_m": 0.154
+        },
+        {
+          "id": 9,
+          "area_plan_m2": 7.05,
+          "slope": 19.6,
+          "aspect": 136.3,
+          "rmse_m": 0.035,
+          "p95_abs_residual_m": 0.073
+        },
+        {
+          "id": 10,
+          "area_plan_m2": 8.16,
+          "slope": 39.4,
+          "aspect": 317.2,
+          "rmse_m": 0.063,
+          "p95_abs_residual_m": 0.121
+        },
+        {
+          "id": 11,
+          "area_plan_m2": 8.82,
+          "slope": 36.0,
+          "aspect": 309.7,
+          "rmse_m": 0.17,
+          "p95_abs_residual_m": 0.174
+        },
+        {
+          "id": 12,
+          "area_plan_m2": 19.94,
+          "slope": 39.1,
+          "aspect": 313.6,
+          "rmse_m": 0.046,
+          "p95_abs_residual_m": 0.085
+        },
+        {
+          "id": 13,
+          "area_plan_m2": 18.07,
+          "slope": 36.6,
+          "aspect": 132.2,
+          "rmse_m": 0.058,
+          "p95_abs_residual_m": 0.07
+        },
+        {
+          "id": 14,
+          "area_plan_m2": 6.97,
+          "slope": 33.1,
+          "aspect": 226.1,
+          "rmse_m": 0.146,
+          "p95_abs_residual_m": 0.183
+        },
+        {
+          "id": 15,
+          "area_plan_m2": 6.98,
+          "slope": 22.7,
+          "aspect": 290.6,
+          "rmse_m": 0.036,
+          "p95_abs_residual_m": 0.061
+        },
+        {
+          "id": 16,
+          "area_plan_m2": 11.34,
+          "slope": 39.5,
+          "aspect": 313.4,
+          "rmse_m": 0.057,
+          "p95_abs_residual_m": 0.107
+        },
+        {
+          "id": 17,
+          "area_plan_m2": 8.34,
+          "slope": 14.6,
+          "aspect": 220.3,
+          "rmse_m": 0.122,
+          "p95_abs_residual_m": 0.216
+        },
+        {
+          "id": 18,
+          "area_plan_m2": 8.19,
+          "slope": 21.4,
+          "aspect": 42.8,
+          "rmse_m": 0.115,
+          "p95_abs_residual_m": 0.193
+        },
+        {
+          "id": 19,
+          "area_plan_m2": 3.63,
+          "slope": 32.5,
+          "aspect": 323.8,
+          "rmse_m": 0.055,
+          "p95_abs_residual_m": 0.113
+        },
+        {
+          "id": 20,
+          "area_plan_m2": 6.79,
+          "slope": 38.4,
+          "aspect": 312.2,
+          "rmse_m": 0.552,
+          "p95_abs_residual_m": 1.481
+        },
+        {
+          "id": 21,
+          "area_plan_m2": 5.91,
+          "slope": 41.1,
+          "aspect": 135.0,
+          "rmse_m": 0.511,
+          "p95_abs_residual_m": 1.453
+        },
+        {
+          "id": 22,
+          "area_plan_m2": 3.91,
+          "slope": 16.6,
+          "aspect": 275.0,
+          "rmse_m": 0.058,
+          "p95_abs_residual_m": 0.125
+        },
+        {
+          "id": 23,
+          "area_plan_m2": 2.78,
+          "slope": 29.9,
+          "aspect": 328.5,
+          "rmse_m": 0.138,
+          "p95_abs_residual_m": 0.265
+        },
+        {
+          "id": 24,
+          "area_plan_m2": 0.84,
+          "slope": 84.8,
+          "aspect": 155.1,
+          "rmse_m": 0.171,
+          "p95_abs_residual_m": 0.306
+        }
+      ]
+    },
+    "panels": {
+      "n_panels": 48,
+      "n_violations": 0,
+      "violations": [],
+      "n_overlaps": 0,
+      "passed": true
+    }
+  },
+  "timings_s": {
+    "load": 0.07187247276306152,
+    "preprocess": 0.6014654636383057,
+    "building": 0.7546250820159912,
+    "segmentation": 4.565985679626465,
+    "obstructions": 0.37266016006469727,
+    "placement": 0.30475282669067383,
+    "shading": 0.08862709999084473,
+    "validation": 0.16193199157714844
+  },
+  "config": {
+    "preprocess": {
+      "outlier_window": 5,
+      "outlier_k_mad": 6.0,
+      "outlier_min_abs": 0.5,
+      "median_size": 3
+    },
+    "building": {
+      "dtm_radius": 12.0,
+      "dtm_downsample": 4,
+      "min_height": 2.5,
+      "exg_threshold": null,
+      "min_building_area": 40.0,
+      "opening_radius": 0.3
+    },
+    "segmentation": {
+      "normal_sigma": 1.5,
+      "planarity_window": 5,
+      "seed_max_residual": 0.03,
+      "grow_angle": 12.0,
+      "grow_dist": 0.12,
+      "min_region_area": 0.6,
+      "merge_angle": 6.0,
+      "merge_dist": 0.1,
+      "assign_max_residual": 0.2,
+      "step_edge_height": 0.35,
+      "envelope_band": 0.8,
+      "simplify_tolerance": 0.2,
+      "max_seam_offset": 0.6,
+      "flat_slope": 8.0
+    },
+    "obstruction": {
+      "min_protrusion": 0.2,
+      "min_area": 0.04,
+      "rgb_k_mad": 5.0,
+      "rgb_min_delta_e": 6.0,
+      "chroma_k_mad": 3.0,
+      "chroma_min": 6.0,
+      "glass_delta_a": -6.0,
+      "glazed_face_fraction": 0.4,
+      "rgb_min_area": 0.12,
+      "rgb_max_area": 12.0,
+      "small_face_area": 1.5,
+      "edge_margin": 0.25
+    },
+    "solar": {
+      "panel_length": 1.722,
+      "panel_width": 1.134,
+      "panel_power_wp": 425.0,
+      "panel_gap": 0.02,
+      "edge_setback": 0.3,
+      "obstruction_clearance": 0.3,
+      "max_slope": 60.0,
+      "min_relative_yield": 0.75,
+      "diffuse_fraction": 0.5,
+      "offset_step": 0.05,
+      "min_panels_per_face": 1,
+      "max_shading_loss": 0.3,
+      "latitude": null,
+      "longitude": null
+    }
+  }
+}

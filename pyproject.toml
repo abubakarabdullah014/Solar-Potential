@@ -1,0 +1,23 @@
+[project]
+name = "roofsolar"
+version = "1.0.0"
+description = "3-D roof reconstruction from DSM + RGB and PV module layout"
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "rasterio", "shapely>=2.1", "scikit-image", "matplotlib", "trimesh", "plotly", "mapbox_earcut"]
+
+[project.optional-dependencies]
+render = ["playwright"]
+dev = ["pytest"]
+
+[project.scripts]
+roofsolar = "roofsolar.__main__:main"
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["roofsolar*"]
+
+[tool.pytest.ini_options]
+filterwarnings = ["ignore::DeprecationWarning", "ignore::UserWarning"]
